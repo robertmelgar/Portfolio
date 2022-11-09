@@ -1,4 +1,6 @@
-/* Queries used for Tableau Project ** NOTE: Queries were run in Google's BigQuery in order to filter the data*/
+/* Queries used for Tableau Covid Project 
+
+NOTE: Queries were run in Google's BigQuery in order to filter the data*/
 
 -- 1
 -- Total Cases, Total deaths and death percentage (World) 
@@ -59,6 +61,7 @@ JOIN `sandbox-projects-367614.portfolioproject.covidvaccinations` as vac
 where dea.continent is not null 
 group by dea.continent, dea.location, dea.date, dea.population
 order by 1,2,3
+
 
 
 -- USING CTEs
