@@ -1,6 +1,6 @@
 /* Queries used for Tableau Covid Project 
 
-NOTE: Queries were run in Google's BigQuery in order to filter the data*/
+NOTE: Queries were run in Google's BigQuery in order to filter the data . Go here to see result: https://public.tableau.com/views/CovidGlobalNumberStatistics/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link */
 
 -- 1
 -- Total Cases, Total deaths and death percentage (World) 
